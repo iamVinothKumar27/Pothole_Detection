@@ -7,7 +7,7 @@ import os
 
 app = Flask(__name__)
 
-TFLITE_MODEL_PATH = "/Users/t.s.vinoth/Desktop/Pothole/Pothole.tflite"
+TFLITE_MODEL_PATH = "Pothole.tflite"
 
 # Load TFLite model once
 def load_tflite_interpreter():
